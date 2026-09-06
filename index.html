@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Har Ruz — Одатҳои худро пайгирӣ кунед</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><span class="logo-dot"></span>HAR RUZ</div>
+  <nav>
+    <a href="#habits">Одатҳо</a>
+    <a href="#about">Дар бораи</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <div class="hero-eyebrow">ПАЙГИРИИ ОДАТҲОИ ҲАРРӮЗА</div>
+      <h1>Пешрафт аз як<br>қадами хурд сар мешавад</h1>
+      <p>Одати худро илова кунед, ҳар рӯз белгӣ занед, ва бинед чӣ тавр рӯзҳо паиҳам якдигарро дунбол мекунанд.</p>
+      <a href="#habits" class="cta-btn">Одати аввалро илова кунед</a>
+    </div>
+    <div class="hero-visual" id="heroGrid"></div>
+  </div>
+</section>
+
+<section id="habits">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-kicker">ИМРӮЗ, <span id="todayLabel"></span></div>
+      <h2>Одатҳои ман</h2>
+    </div>
+
+    <form id="addForm" class="add-form">
+      <input type="text" id="habitInput" placeholder="Одати нав... масалан 'Об нӯшидан'" maxlength="40" required>
+      <button type="submit" class="cta-btn">Илова кардан</button>
+    </form>
+
+    <div id="habitList" class="habit-list"></div>
+
+    <div id="emptyState" class="empty-state" style="display:none;">
+      <p>Ҳанӯз одате надоред. Аввалинашро дар боло илова кунед.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap about-inner">
+    <div class="sec-kicker">ЧӢ ТАВР КОР МЕКУНАД</div>
+    <div class="about-cols">
+      <div>
+        <div class="about-num">01</div>
+        <h3>Илова кунед</h3>
+        <p>Одатеро, ки мехоҳед пайгирӣ кунед, бо ном нависед.</p>
+      </div>
+      <div>
+        <div class="about-num">02</div>
+        <h3>Ҳар рӯз белгӣ занед</h3>
+        <p>Вақте иҷро кардед, дар ҳамон рӯз тугмаро пахш кунед.</p>
+      </div>
+      <div>
+        <div class="about-num">03</div>
+        <h3>Пешрафтро бинед</h3>
+        <p>Сеткаи моҳона нишон медиҳад чанд рӯз паиҳам давом додаед.</p>
+      </div>
+    </div>
+    <p class="note">Ин версия маълумотро танҳо дар ҳамин браузер нигоҳ медорад. Дар қадами навбатӣ, бо пайваст кардани backend, маълумоти шумо аз ҳар дастгоҳ дастрас мешавад.</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Har Ruz — лоиҳаи омӯзишӣ.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
